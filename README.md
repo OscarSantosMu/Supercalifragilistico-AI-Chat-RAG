@@ -17,10 +17,11 @@ urlFragment: azure-search-openai-demo
 
 # ChatGPT + Enterprise data with Azure OpenAI and AI Search
 
-> [!IMPORTANT]
-> As of November 15, 2023, Azure Cognitive Search has been renamed to Azure AI Search.
+This project is based on the Azure Search OpenAI demo to create a new conversational service based on documents (PDFs) generated also with Artificial Intelligence. It leverages the capabilities of OpenAI to create alternative versions of pop culture superheroes and generate fun new descriptions of them. This ChatBot utilizes an AI-generated dataset to generate new AI.
 
-### Announcing [**JavaScript**](https://aka.ms/azai/js/code), [**.NET**](https://aka.ms/azai/net/code), and [**Java**](https://aka.ms/azai/java/code) samples based on this one in [**Python**](https://aka.ms/azai/py/code). Learn more at  https://aka.ms/azai.
+## Demo
+
+[![Demo](assets/demo.png)](https://youtu.be/AMkPyPU2cHU "Demo")
 
 ## Table of Contents
 
@@ -67,10 +68,6 @@ The repo includes sample data so it's ready to try end to end. In this sample ap
 * Shows possible approaches for data preparation, prompt construction, and orchestration of interaction between model (ChatGPT) and retriever (AI Search)
 * Settings directly in the UX to tweak the behavior and experiment with options
 * Performance tracing and monitoring with Application Insights
-
-![Chat screen](docs/chatscreen.png)
-
-[📺 Watch a video overview of the app.](https://youtu.be/3acB0OWmLvM)
 
 ## Azure account requirements
 
