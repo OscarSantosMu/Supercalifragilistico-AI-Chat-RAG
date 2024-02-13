@@ -216,7 +216,7 @@ def test_get_messages_from_history_truncated_break_pair(chat_approach):
 def test_get_messages_from_history_system_message(chat_approach):
     """Tests that the system message token count is considered."""
     messages = chat_approach.get_messages_from_history(
-        system_prompt="Assistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. Be brief in your answers.",  # 24 tokens
+        system_prompt="Assistant helps people to answer common questions based on its data base. Be brief in your answers.",  # 24 tokens
         model_id="gpt-35-turbo",
         history=[
             {"role": "user", "content": "What happens in a performance review?"},  # 10 tokens
@@ -237,7 +237,7 @@ def test_get_messages_from_history_system_message(chat_approach):
     assert messages == [
         {
             "role": "system",
-            "content": "Assistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. Be brief in your answers.",
+            "content": "Assistant helps people to answer common questions based on its data base. Be brief in your answers.",
         },
         {"role": "user", "content": "What does a Product Manager do?"},
     ]

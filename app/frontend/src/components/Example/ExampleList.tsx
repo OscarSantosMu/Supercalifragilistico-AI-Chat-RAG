@@ -4,8 +4,8 @@ import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
     "¿Cuál de los superhéroes se enfrenta al Dr. Zumbón?",
-    "¿Quién es el Ferrohombre?",
-    "¿Hay algún superhéroe que se tropiece constantemente con su capa?"
+    "¿Qué es el libro de los hechizos cósmicos?",
+    "¿Quién es el superhéroe más débil?"
 ];
 
 const GPT4V_EXAMPLES: string[] = [
